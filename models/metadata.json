@@ -1,0 +1,53 @@
+{
+  "model_version": "2.0.0",
+  "model_type": "deep_learning",
+  "training_date": "2025-11-16T17:45:32.810261",
+  "feature_names": [
+    "n",
+    "p",
+    "k",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "crops": [
+    "Apple",
+    "Bajra",
+    "Banana",
+    "Barley",
+    "Blackgram",
+    "Chickpea",
+    "Coconut",
+    "Coffee",
+    "Cotton",
+    "Grapes",
+    "Groundnut",
+    "Jute",
+    "Kidneybeans",
+    "Lentil",
+    "Maize",
+    "Mango",
+    "Mothbeans",
+    "Mungbean",
+    "Muskmelon",
+    "Mustard",
+    "Orange",
+    "Papaya",
+    "Pigeonpeas",
+    "Pomegranate",
+    "Potato",
+    "Rice",
+    "Soybean",
+    "Sugarcane",
+    "Tobacco",
+    "Vegetables",
+    "Watermelon",
+    "Wheat"
+  ],
+  "num_crops": 32,
+  "accuracies": {
+    "train": 0.9889705777168274,
+    "test": 0.9780092835426331
+  }
+}

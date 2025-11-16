@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Data (don't upload to git - too large!)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models (will download from HF)
+models/*.pkl
+models/*.h5
+models/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+.env.example
+*.key
+
+scripts/upload_to_hf.py
